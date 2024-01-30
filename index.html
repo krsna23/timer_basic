@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Stopwatch: Timer</title>
 </head>
 <body>
     <div class="container">
         <h1 class="heading">Stopwatch</h1>
         <div class="time">
-            <div class="minute">
+            <div class="minute" id="minutes">
                 00
             </div>:
-            <div class="seconds">
+            <div class="seconds" id="seconds">
                 00
             </div>:
-            <div class="tens">
+            <div class="tens" id="tens">
                 00
             </div>
         </div>
         <div class="buttons">
-            <button class="button start">Start</button>
-            <button class="button stop">Stop</button>            
-            <button class="button stop">Reset</button>
+            <button class="button start" id="start">Start</button>
+            <button class="button stop" id="stop">Stop</button>            
+            <button class="button stop" id="reset">Reset</button>
         </div>
     </div>
+    <script src="script.js" async></script>
 </body>
 </html>
